@@ -15,4 +15,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Specify the command to run on container start
-CMD ["python", "app/main.py"]
+# or you can change it for any of the Python codes we have in the project
+CMD ["python", "main.py"]
